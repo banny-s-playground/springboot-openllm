@@ -33,6 +33,11 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+	// OpenAI API Client
+	implementation("com.theokanning.openai-gpt3-java:api:0.16.1")
+	implementation("com.theokanning.openai-gpt3-java:client:0.16.1")
+	implementation("com.theokanning.openai-gpt3-java:service:0.16.1")
 }
 
 kotlin {
